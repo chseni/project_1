@@ -100,9 +100,6 @@ function App() { //각 값을 담고 State따라 값을 바꾸는 코드
     alert("데이터 변경 실패 다시 시도해주세요")
     console.error("업데이트 중 에러", error)
   }
-
-  setItems(items.map(item => item.id === parseInt(id)));
-
 }
 
 // react 기능임
